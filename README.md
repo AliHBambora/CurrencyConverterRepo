@@ -1,7 +1,5 @@
 # Currency_Converter
 
-A new Flutter project.
-
 ## Getting Started
 Currency_Converter is a simple mobile application built using flutter for converting currencies of different countries from one another. It consists of 3 screens in which the first screen is used to show the list of currencies the application supports, the second screen is used to convert the currency from one country to another and the third screen is used to show the past conversion history for the user for the last 7 days.
 
