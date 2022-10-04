@@ -36,7 +36,7 @@ Since the icons of the countries flags are to be taken from the internet and sin
 
 ![image](https://user-images.githubusercontent.com/67342582/193858118-631d5396-fcdf-48ed-af37-1951009c274f.png)
 
-The application uses <b>NoSQL hive database<b> for data storage. Since the application retrieves the currency conversion data from the API in JSON format it becomes very easy to store this data in a Hive box in the same format. Also, the retrieval of this data is easy to manipulate without writing much code.
+The application uses <b>NoSQL hive database</b> for data storage. Since the application retrieves the currency conversion data from the API in JSON format it becomes very easy to store this data in a Hive box in the same format. Also, the retrieval of this data is easy to manipulate without writing much code.
   
 Also, Hive is an extremely powerful and promising NoSQL database with high speed data retrieval and entry which makes the performance of the application very fast.
   
