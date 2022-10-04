@@ -29,5 +29,13 @@ Presenter is responsible for querying the model and translating updates in the v
 The project uses MVP design pattern as it clearly separates the business logic of the application from the UI and modularizes the application in a clean way and organizes the code in a better manner.
 Also it is easy to unit test the application as the core database functions and the UI are loosely coupled and separated from each other
 
+## Image Loader Used
+Since the icons of the countries flags are to be taken from the internet and since the application uses <b>Circle avatar</b> to display these flag icons, the project uses <b>NetworkImage provider</b> for loading the images from the API.
 
+## Local Database used(Hive)
 
+![image](https://user-images.githubusercontent.com/67342582/193858118-631d5396-fcdf-48ed-af37-1951009c274f.png)
+
+The application uses <b>NoSQL hive database<b> for data storage. Since the application retrieves the currency conversion data from the API in JSON format it becomes very easy to store this data in a Hive box in the same format. Also, the retrieval of this data is easy to manipulate without writing much code.
+  
+Also, Hive is an extremely powerful and promising NoSQL database with high speed data retrieval and entry which makes the performance of the application very fast.
