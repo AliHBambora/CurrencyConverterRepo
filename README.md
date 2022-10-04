@@ -39,3 +39,15 @@ Since the icons of the countries flags are to be taken from the internet and sin
 The application uses <b>NoSQL hive database<b> for data storage. Since the application retrieves the currency conversion data from the API in JSON format it becomes very easy to store this data in a Hive box in the same format. Also, the retrieval of this data is easy to manipulate without writing much code.
   
 Also, Hive is an extremely powerful and promising NoSQL database with high speed data retrieval and entry which makes the performance of the application very fast.
+  
+## Bloc Pattern for state management
+<p align="center"><img src="https://user-images.githubusercontent.com/67342582/193858306-69109b65-f164-421e-b6b2-76e68cf8cc06.png"></p>
+  
+The project follows the <b>Bloc(Business Logic Component)</b> pattern for state management. The application contains a Bloc folder in which we have a CurrencyBloc folder which contains the events and state related to this bloc.
+  
+<p align="center"><img src="https://user-images.githubusercontent.com/67342582/193858692-4bd84bb1-565d-4dc0-93fd-b07857afe201.png"></p>
+  
+This bloc has two states namely <b>CurrencyInitial(initial state) and CurrencyLoaded(state when all the currency information is retrieved from the database).</b>
+  
+ Also this bloc has one <b>event LoadCurrencies</b> which calls the API for getting the information related to the currencies and changes the state from <b>CurrencyInitial to CurrencyLoaded state.</b>
+
