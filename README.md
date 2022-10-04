@@ -51,3 +51,7 @@ This bloc has two states namely <b>CurrencyInitial(initial state) and CurrencyLo
   
  Also this bloc has one <b>event LoadCurrencies</b> which calls the API for getting the information related to the currencies and changes the state from <b>CurrencyInitial to CurrencyLoaded state.</b>
 
+ ## Unit Testing
+  The application code contains <b>test folder</b> which has unit tests for API calls <b>getSupportedCurrencies</b>(used to get a list of supported currencies) and <b>getConversionData</b>(used to convert currency).
+  
+  
